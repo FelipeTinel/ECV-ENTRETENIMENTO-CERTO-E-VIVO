@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-enum class Gender {
+enum class Genre {
 
     ACTION,
     COMEDY,

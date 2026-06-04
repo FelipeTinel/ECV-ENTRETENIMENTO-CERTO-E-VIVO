@@ -3,22 +3,28 @@
 #include <iostream>
 #include <string>
 
+#include "genre.hpp"
+#include "type.hpp"
 class Content {
 
-    std::string title, type, gender;
+    std::string title;
+    Type type;
+    Genre genre;
     int year;
     long views;
+    float rating;
 
     public:
 
-        Content (std::string t, std::string ty, std::string gen, int y)
-        {
+        Content (std::string t, Type ty, Genre g, int y, long v, float r):
 
-            title = t;
-            type = ty;
-            gender = gen;
-            year = y;
+            title(t),
+            type(ty),
+            genre(g),
+            year(y),
+            views(v),
+            rating(r)
 
-        }
+        {}
 
 };
