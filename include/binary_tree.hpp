@@ -18,6 +18,7 @@ class BinaryTree {
 
     
         void insert(T info);
+        bool search (T info);
         void remove (T info);
 
 };
