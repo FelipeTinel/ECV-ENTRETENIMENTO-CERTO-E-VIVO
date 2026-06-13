@@ -2,9 +2,8 @@
 
 #include <iostream>
 #include <string>
-#include <fstream>
 
-#include "content.hpp"
+#include "core/content.hpp"
 
 class DataManager {
 
@@ -12,7 +11,7 @@ class DataManager {
 
     public:
 
-        DataManager (const std::string & f): file(f) {}
+        DataManager (const std::string & file): file(file) {}
 
         void write_content(const Content & content);
         void update_content (int id);

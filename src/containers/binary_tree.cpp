@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-#include "include/containers/binary_tree.hpp"
+#include "containers/binary_tree.hpp"
 
 void BinaryTree::insert(std::string info) {
 

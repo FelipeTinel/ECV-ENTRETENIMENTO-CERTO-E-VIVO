@@ -1,3 +1,0 @@
-/home/felipetinel/ECV-ENTRETENIMENTO-CERTO-E-VIVO/build/CMakeFiles/test_data_management.dir
-/home/felipetinel/ECV-ENTRETENIMENTO-CERTO-E-VIVO/build/CMakeFiles/edit_cache.dir
-/home/felipetinel/ECV-ENTRETENIMENTO-CERTO-E-VIVO/build/CMakeFiles/rebuild_cache.dir

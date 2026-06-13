@@ -1,6 +1,8 @@
 #include <iostream>
 
-#include "include/core/content.hpp"
+#include "core/content.hpp"
+
+int Content::next_id = 1;
 
 Content::Content (std::string title, Type type, Genre genre, int year, long vies, float rating):
 
